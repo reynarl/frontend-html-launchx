@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastelaxia</title>
+  <link rel="icon" href="../assets/img/icon-cake.png">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">PASTELAXIA</a>
+      <a href="#">Inicio</a>
+      <a href="#">Menú</a>
+      <a href="#">Visítanos</a>
+      <a href="#">Ingresar como pastelero</a>
+    </nav>
+    <div><img src="../assets/img/pastelaxia.png" alt="logo"></div>
+  </header>
+  <section>
+    <div class="menu">
+      <h1>Ordena tu pastel estelar</h1>
+      <p>Selecciona una o mas opciones para formar tu universo de sabores.</p>
+      <div class="flavor">
+        <h2>Sabores</h2>
+        <ul>
+          <li><input type="checkbox"><i class="fas fa-star-half-alt"></i>Chocolate Galáctico . . . . . . . . . . . . . . . . . . . . $100</li>
+          <li><input type="checkbox"><i class="fas fa-star-half-alt"></i>Tres Via-Lacteas . . . . . . . . . . . . . . . . . . . . . . . . $100</li>
+          <li><input type="checkbox"><i class="fas fa-star-half-alt"></i>Nutella Espacial . . . . . . . . . . . . . . . . . . . . . . . . $100</li>
+          <li><input type="checkbox"><i class="fas fa-star-half-alt"></i>Vainilla Infinita . . . . . . . . . . . . . . . . . . . . . . . . . $100</li>
+          <li><input type="checkbox"><i class="fas fa-star-half-alt"></i>Sabor Estelar . . . . . . . . . . . . . . . . . . . . . . . . . . . $100</li>
+        </ul>
+      </div>
+      <div class="decoration">
+        <h2>Decoración</h2>
+        <ul>
+          <li><input type="checkbox"><i class="fas fa-star"></i>Polvo Cósmico. . . . . . . . . . . . . . . . . . . . . . . . . . . . $100</li>
+          <li><input type="checkbox"><i class="fas fa-star"></i>Estrellas de dulce. . . . . . . . . . . . . . . . . . . . . . . . . $100</li>
+          <li><input type="checkbox"><i class="fas fa-star"></i>Arándanos de Andrómeda. . . . . . . . . . . . . . . .$100</li>
+          <li><input type="checkbox"><i class="fas fa-star"></i>Nube de Algodón. . . . . . . . . . . . . . . . . . . . . . . . .$100</li>
+          <li><input type="checkbox"><i class="fas fa-star"></i>Fresas Alienígenas. . . . . . . . . . . . . . . . . . . . . . . .$100</li>
+        </ul>
+      </div>
+    </div>
+    <div class="form">
+      <form>
+        <label for="name">Nombre: </label><br>
+        <input type="text" id="name" name="name" value=""><br>
+        <label for="tel">Telefono: </label><br>
+        <input type="number" id="tel" name="tel" value=""><br>
+        <label for="email">Correo electrónico: </label><br>
+        <input type="email" id="email" name="email" value=""><br>
+        <label for="desc">Descripción adicional del pastel: </label><br>
+        <textarea name="desc" id="desc" cols="33" rows="7"></textarea>
+        <a href="../views/orderNotification.html" class="order-btn">Ordenar</a>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
