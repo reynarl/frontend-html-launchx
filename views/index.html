@@ -11,18 +11,18 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header id="start">
     <nav>
-      <a href="#">PASTELAXIA</a>
-      <a href="#">Inicio</a>
-      <a href="#">Menú</a>
-      <a href="#">Visítanos</a>
-      <a href="#">Ingresar como pastelero</a>
+      <a href="#start">PASTELAXIA</a>
+      <a href="#start">Inicio</a>
+      <a href="#order">Ordenar</a>
+      <a href="#visit">Visítanos</a>
+      <a href="../views/indexAdmin.html">Ingresar como pastelero</a>
     </nav>
     <div><img src="../assets/img/pastelaxia.png" alt="logo"></div>
   </header>
   <section>
-    <div class="menu">
+    <div id="order" class="menu">
       <h1>Ordena tu pastel estelar</h1>
       <p>Selecciona una o mas opciones para formar tu universo de sabores.</p>
       <div class="flavor">
@@ -58,6 +58,19 @@
         <textarea name="desc" id="desc" cols="33" rows="7"></textarea>
         <a href="../views/orderNotification.html" class="order-btn">Ordenar</a>
       </form>
+    </div>
+  </section>
+  <section id="visit" class="visit-us">
+    <div>
+      <h2>Visítanos</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.4421850297667!2d-93.15195048562563!3d16.754662025155138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd90f1a887fa9%3A0xb87da1b10acde415!2sPlaza%20Crystal!5e0!3m2!1ses-419!2smx!4v1646201610639!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div>
+      <p>Blvd. Belisario Domínguez 1081, Sin Nombre, Tuxtla Gutiérrez, Chis.</p>
+      <p>Tel. (967) 678 12 34</p>
+      <p>Horario de atención:</p>
+      <p>Lunes a Sábado</p>
+      <p>9:00am - 6:00pm</p>
     </div>
   </section>
 </body>
