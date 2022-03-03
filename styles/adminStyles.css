@@ -7,10 +7,37 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+header{
+  background-image: url(../assets/img/pastelaxia.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+}
+.pedidos{
+  padding: 50px;
+}
+.menu h2{
+  color:#afa25d;
+}
+
+.m-adm{
+  margin: 50px 0;
+}
+
 table{
   border-collapse: collapse;
   text-align: left;
 }
+.table{
+  margin-left: 35px;
+}
 th, td{
-  border: 1px solid black;
+  border: 1px solid #ee819e;
+  padding: 15px;
+}
+
+th{
+  background-color: #ee819e;
+  border: 1px solid #fbeec2;
+  color: white;
 }

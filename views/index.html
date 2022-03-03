@@ -14,17 +14,21 @@
   <header id="start">
     <nav>
       <a href="#start">PASTELAXIA</a>
-      <a href="#start">Inicio</a>
-      <a href="#order">Ordenar</a>
-      <a href="#visit">Visítanos</a>
+      <div class="nav">
+        <a href="#start">Inicio</a>
+        <a href="#order">Ordenar</a>
+        <a href="#visit">Visítanos</a>
+      </div>
       <a href="../views/indexAdmin.html">Ingresar como pastelero</a>
     </nav>
-    <div><img src="../assets/img/pastelaxia.png" alt="logo"></div>
+    <div class="img"><img src="../assets/img/pastelaxia.png" alt=""></div>
   </header>
-  <section>
-    <div id="order" class="menu">
+  <section id="order">
+    <div class="title">
       <h1>Ordena tu pastel estelar</h1>
       <p>Selecciona una o mas opciones para formar tu universo de sabores.</p>
+    </div>
+    <div class="menu">
       <div class="flavor">
         <h2>Sabores</h2>
         <ul>
@@ -48,30 +52,34 @@
     </div>
     <div class="form">
       <form>
+        <p>Registra tus datos</p><br>
         <label for="name">Nombre: </label><br>
-        <input type="text" id="name" name="name" value=""><br>
-        <label for="tel">Telefono: </label><br>
-        <input type="number" id="tel" name="tel" value=""><br>
+        <input type="text" id="name" name="name" value="" placeholder="Ingresa tu nombre"><br>
+        <label for="tel">Teléfono: </label><br>
+        <input type="tel" id="tel" name="tel" value="" placeholder="Teléfono"><br>
         <label for="email">Correo electrónico: </label><br>
-        <input type="email" id="email" name="email" value=""><br>
+        <input type="email" id="email" name="email" value="" placeholder="Correo electrónico"><br>
         <label for="desc">Descripción adicional del pastel: </label><br>
-        <textarea name="desc" id="desc" cols="33" rows="7"></textarea>
+        <textarea name="desc" id="desc" cols="52" rows="7"></textarea>
         <a href="../views/orderNotification.html" class="order-btn">Ordenar</a>
       </form>
     </div>
   </section>
-  <section id="visit" class="visit-us">
-    <div>
-      <h2>Visítanos</h2>
+  <section id="visit">
+    <h2>Visítanos</h2>
+    <div class="visit-us">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.4421850297667!2d-93.15195048562563!3d16.754662025155138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd90f1a887fa9%3A0xb87da1b10acde415!2sPlaza%20Crystal!5e0!3m2!1ses-419!2smx!4v1646201610639!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-    <div>
-      <p>Blvd. Belisario Domínguez 1081, Sin Nombre, Tuxtla Gutiérrez, Chis.</p>
-      <p>Tel. (967) 678 12 34</p>
-      <p>Horario de atención:</p>
-      <p>Lunes a Sábado</p>
-      <p>9:00am - 6:00pm</p>
+      <div class="info">
+        <p>Blvd. Belisario Domínguez 1081, Sin Nombre.</p>
+        <p>Tel. (967) 678 12 34</p>
+        <p>Horario de atención:</p>
+        <p>Lunes a Sábado</p>
+        <p>9:00am - 6:00pm</p>
+      </div>
     </div>
   </section>
+  <footer>
+    <p>De Pastelaxia con amor</p>
+  </footer>
 </body>
 </html>

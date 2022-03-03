@@ -6,3 +6,139 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(172, 86, 7);
+  padding: 15px;
+  position: fixed;
+}
+
+nav a{
+  color:#fbeec2;
+  text-decoration: none;
+}
+nav a:hover{
+  color:#ecdaac;
+  text-decoration: none;
+}
+
+.nav{
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+}
+img{
+  margin-top: 50px;
+}
+
+section{
+  padding-top: 50px;
+}
+
+h1{
+  padding-bottom: 10px;
+  color: #e96688;
+}
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #a4943c;
+}
+
+.title{
+  margin: 0 0 40px 60px;
+  color: #a4943c;
+  font-size: 18px;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+  color: #a4943c;
+  font-weight: bold;
+}
+
+.menu ul li{
+  list-style: none;
+  padding-bottom: 20px;
+}
+input[type=checkbox]{
+  margin-right: 10px;
+}
+
+.form{
+  padding-left: 140px;
+}
+
+form input{
+  width: 400px;
+  height: 30px;
+  margin: 10px 0;
+}
+
+form label{
+  color:#a4943c;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+form a{
+  padding-top: 10px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  display: block;
+  background-color: #e96688;
+  width: 405px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color:#fbeec2;
+}
+
+form a:hover{
+  background-color: #ee819e;
+}
+
+.visit-us{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+iframe{
+  width: 30%;
+}
+
+.info{
+  width: 50%;
+  padding-left: 40px;
+  /* font-size: 18px; */
+}
+
+.info p{
+  margin-bottom: 15px;
+}
+
+footer{
+  background-color: #ac5607;
+  padding: 5px;
+  text-align: center;
+  color: #ffd6ba;
+}
+
+.notification{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/img/pastelaxia.png);
+  height: 100px;
+}
